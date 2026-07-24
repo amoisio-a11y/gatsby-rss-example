@@ -4,10 +4,73 @@
         <title>Kaapelitehdas – Tapahtumat</title>
         <link>https://www.kaapelitehdas.fi/tapahtumat</link>
         <description>Kaapelitehtaan tulevat tapahtumat (epävirallinen RSS-syöte)</description>
-        <lastBuildDate>Fri, 24 Jul 2026 08:41:17 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Jul 2026 14:10:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>kaapelitehdas-rss (GitHub Actions, epävirallinen)</generator>
         <language>fi</language>
+        <item>
+            <title><![CDATA[Taiteen perusopetusta 4-6-vuotiaille]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/taiteen-perusopetusta-4-6-vuotiaille</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/taiteen-perusopetusta-4-6-vuotiaille</guid>
+            <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Taiteen perusopetusta 7-9-vuotiaille]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/taiteen-perusopetusta-7-9-vuotiaille</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/taiteen-perusopetusta-7-9-vuotiaille</guid>
+            <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Vapaa Taidekoulu: Unikuvia]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/vapaa-taidekoulu-unikuvia</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/vapaa-taidekoulu-unikuvia</guid>
+            <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Suomen Taiteilijat ry: 58. vuosinäyttely]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/suomen-taiteilijat-ry-58-vuosinayttely</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/suomen-taiteilijat-ry-58-vuosinayttely</guid>
+            <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Groove & Afrobeat Open Jam Session]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/groove-ja-afrobeat-open-jam-session</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/groove-ja-afrobeat-open-jam-session</guid>
+            <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Swagykarp SM-turnaus]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/swagykarp-sm-turnaus</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/swagykarp-sm-turnaus</guid>
+            <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[MUU matinea: Veijo Peso - Juhani Saksikäsi]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/muu-matinea-veijo-peso-juhani-saksikasi</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/muu-matinea-veijo-peso-juhani-saksikasi</guid>
+            <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Marie-José Dings: Värien virrassa]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/mariejose-dings-varien-virrassa</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/mariejose-dings-varien-virrassa</guid>
+            <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Viivan lumo]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/viivan-lumo</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/viivan-lumo</guid>
+            <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kaapelitehdas]]></description>
+        </item>
         <item>
             <title><![CDATA[Agni Kuokkanen: Through the Shadow]]></title>
             <link>https://www.kaapelitehdas.fi/tapahtumat/agni-kuokkanen-through-the-shadow</link>
@@ -61,6 +124,13 @@
             <title><![CDATA[Film Still – Malla Hukkasen valokuvia elokuvista]]></title>
             <link>https://www.kaapelitehdas.fi/tapahtumat/film-still-malla-hukkasen-valokuvia-elokuvista</link>
             <guid>https://www.kaapelitehdas.fi/tapahtumat/film-still-malla-hukkasen-valokuvia-elokuvista</guid>
+            <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Z Walsh: Feminine Man]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/z-walsh-feminine-man</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/z-walsh-feminine-man</guid>
             <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Kaapelitehdas]]></description>
         </item>
