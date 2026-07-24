@@ -4,7 +4,7 @@
         <title>Kaapelitehdas – Tapahtumat</title>
         <link>https://www.kaapelitehdas.fi/tapahtumat</link>
         <description>Kaapelitehtaan tulevat tapahtumat (epävirallinen RSS-syöte)</description>
-        <lastBuildDate>Fri, 24 Jul 2026 06:09:15 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Jul 2026 08:41:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>kaapelitehdas-rss (GitHub Actions, epävirallinen)</generator>
         <language>fi</language>
@@ -16,10 +16,24 @@
             <description><![CDATA[Kaapelitehdas]]></description>
         </item>
         <item>
+            <title><![CDATA[Lea Kömi: Muistamisen tila – Nukkekoti]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/lea-komi-muistamisen-tila-nukkekoti</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/lea-komi-muistamisen-tila-nukkekoti</guid>
+            <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kaapelitehdas]]></description>
+        </item>
+        <item>
             <title><![CDATA[Salla Kalsi: Kaksoiskuvia]]></title>
             <link>https://www.kaapelitehdas.fi/tapahtumat/salla-kalsi-kaksoiskuvia</link>
             <guid>https://www.kaapelitehdas.fi/tapahtumat/salla-kalsi-kaksoiskuvia</guid>
             <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Spartak Khachanov: The Impersonal]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/spartak-khachanov-the-impersonal</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/spartak-khachanov-the-impersonal</guid>
+            <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Kaapelitehdas]]></description>
         </item>
         <item>
@@ -34,6 +48,13 @@
             <link>https://www.kaapelitehdas.fi/tapahtumat/kaapelitehtaan-kesapaiva</link>
             <guid>https://www.kaapelitehdas.fi/tapahtumat/kaapelitehtaan-kesapaiva</guid>
             <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Photofuss: Kontakti]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/photoofuss-kontakti</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/photoofuss-kontakti</guid>
+            <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Kaapelitehdas]]></description>
         </item>
         <item>
@@ -76,6 +97,13 @@
             <link>https://www.kaapelitehdas.fi/tapahtumat/kolmas-soitto</link>
             <guid>https://www.kaapelitehdas.fi/tapahtumat/kolmas-soitto</guid>
             <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Makuasioita]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/makuasioita</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/makuasioita</guid>
+            <pubDate>Fri, 08 Oct 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Kaapelitehdas]]></description>
         </item>
     </channel>
