@@ -28,7 +28,7 @@ jobs:
           node-version: "22"
 
       - name: Asenna riippuvuudet
-        run: npm ci
+        run: npm install
 
       - name: Asenna Playwright + Chromium
         run: npx playwright install --with-deps chromium
