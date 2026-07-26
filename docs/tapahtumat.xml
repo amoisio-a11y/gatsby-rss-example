@@ -4,156 +4,100 @@
         <title>Kaapelitehdas – Tapahtumat</title>
         <link>https://www.kaapelitehdas.fi/tapahtumat</link>
         <description>Kaapelitehtaan tulevat tapahtumat (epävirallinen RSS-syöte)</description>
-        <lastBuildDate>Sun, 26 Jul 2026 13:55:24 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 26 Jul 2026 18:23:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>kaapelitehdas-rss (GitHub Actions, epävirallinen)</generator>
         <language>fi</language>
         <item>
-            <title><![CDATA[Suomen Taiteilijat ry: 58. vuosinäyttely]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/suomen-taiteilijat-ry-58-vuosinayttely</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/suomen-taiteilijat-ry-58-vuosinayttely</guid>
-            <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Groove & Afrobeat Open Jam Session]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/groove-ja-afrobeat-open-jam-session</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/groove-ja-afrobeat-open-jam-session</guid>
-            <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Swagykarp SM-turnaus]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/swagykarp-sm-turnaus</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/swagykarp-sm-turnaus</guid>
-            <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[MUU matinea: Veijo Peso - Juhani Saksikäsi]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/muu-matinea-veijo-peso-juhani-saksikasi</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/muu-matinea-veijo-peso-juhani-saksikasi</guid>
-            <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Marie-José Dings: Värien virrassa]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/mariejose-dings-varien-virrassa</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/mariejose-dings-varien-virrassa</guid>
-            <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Viivan lumo]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/viivan-lumo</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/viivan-lumo</guid>
-            <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Agni Kuokkanen: Through the Shadow]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/agni-kuokkanen-through-the-shadow</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/agni-kuokkanen-through-the-shadow</guid>
-            <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Lea Kömi: Muistamisen tila – Nukkekoti]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/lea-komi-muistamisen-tila-nukkekoti</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/lea-komi-muistamisen-tila-nukkekoti</guid>
-            <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Salla Kalsi: Kaksoiskuvia]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/salla-kalsi-kaksoiskuvia</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/salla-kalsi-kaksoiskuvia</guid>
-            <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Spartak Khachanov: The Impersonal]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/spartak-khachanov-the-impersonal</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/spartak-khachanov-the-impersonal</guid>
-            <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Yksi - Muotoiluinstituutin valokuvaajien ryhmänäyttely]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/yksi-muotoiluinstituutin-valokuvaajien-ryhmanayttely</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/yksi-muotoiluinstituutin-valokuvaajien-ryhmanayttely</guid>
-            <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Kaapelitehtaan Kesäpäivä]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/kaapelitehtaan-kesapaiva</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/kaapelitehtaan-kesapaiva</guid>
-            <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Photofuss: Kontakti]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/photoofuss-kontakti</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/photoofuss-kontakti</guid>
-            <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Film Still – Malla Hukkasen valokuvia elokuvista]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/film-still-malla-hukkasen-valokuvia-elokuvista</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/film-still-malla-hukkasen-valokuvia-elokuvista</guid>
-            <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Z Walsh: Feminine Man]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/z-walsh-feminine-man</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/z-walsh-feminine-man</guid>
-            <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
+            <title><![CDATA[Kaapelitehtaan historiakäytävä]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/kaapelitehtaan-historiakaytava</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/kaapelitehtaan-historiakaytava</guid>
+            <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
+            <description><![CDATA[Tapahtuman ajankohta: 25.11.2025. Kaapelitehdas]]></description>
         </item>
         <item>
             <title><![CDATA[Jörn Donner -galleria]]></title>
             <link>https://www.kaapelitehdas.fi/tapahtumat/jorn-donner-galleria</link>
             <guid>https://www.kaapelitehdas.fi/tapahtumat/jorn-donner-galleria</guid>
-            <pubDate>Fri, 06 Feb 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
+            <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
+            <description><![CDATA[Tapahtuman ajankohta: 6.2.2026. Kaapelitehdas]]></description>
         </item>
         <item>
-            <title><![CDATA[Kaapelitehtaan historiakäytävä]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/kaapelitehtaan-historiakaytava</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/kaapelitehtaan-historiakaytava</guid>
-            <pubDate>Tue, 25 Nov 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
+            <title><![CDATA[Yksi - Muotoiluinstituutin valokuvaajien ryhmänäyttely]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/yksi-muotoiluinstituutin-valokuvaajien-ryhmanayttely</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/yksi-muotoiluinstituutin-valokuvaajien-ryhmanayttely</guid>
+            <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
+            <description><![CDATA[Tapahtuman ajankohta: 2.6.2026. Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Agni Kuokkanen: Through the Shadow]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/agni-kuokkanen-through-the-shadow</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/agni-kuokkanen-through-the-shadow</guid>
+            <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
+            <description><![CDATA[Tapahtuman ajankohta: 17.7.2026. Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Salla Kalsi: Kaksoiskuvia]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/salla-kalsi-kaksoiskuvia</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/salla-kalsi-kaksoiskuvia</guid>
+            <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
+            <description><![CDATA[Tapahtuman ajankohta: 30.6.2026. Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Film Still – Malla Hukkasen valokuvia elokuvista]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/film-still-malla-hukkasen-valokuvia-elokuvista</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/film-still-malla-hukkasen-valokuvia-elokuvista</guid>
+            <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
+            <description><![CDATA[Tapahtuman ajankohta: 27.3.2026. Kaapelitehdas]]></description>
         </item>
         <item>
             <title><![CDATA[Huimaa! Sirkuksen taikaa ja tarinoita]]></title>
             <link>https://www.kaapelitehdas.fi/tapahtumat/huimaa-sirkuksen-taikaa-ja-tarinoita</link>
             <guid>https://www.kaapelitehdas.fi/tapahtumat/huimaa-sirkuksen-taikaa-ja-tarinoita</guid>
-            <pubDate>Fri, 10 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
+            <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
+            <description><![CDATA[Tapahtuman ajankohta: 10.10.2025. Kaapelitehdas]]></description>
         </item>
         <item>
-            <title><![CDATA[Kuohuvat kymmenet – ravintolavalokuvia 1960- ja 1970-luvuilta]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/kuohuvat-kymmenet-ravintolavalokuvia-1960-ja-1970-luvuilta</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/kuohuvat-kymmenet-ravintolavalokuvia-1960-ja-1970-luvuilta</guid>
-            <pubDate>Fri, 19 Sep 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
+            <title><![CDATA[Kaapelitehtaan Kesäpäivä]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/kaapelitehtaan-kesapaiva</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/kaapelitehtaan-kesapaiva</guid>
+            <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
+            <description><![CDATA[Tapahtuman ajankohta: 1.6.2026. Kaapelitehdas]]></description>
         </item>
         <item>
             <title><![CDATA[Kolmas soitto]]></title>
             <link>https://www.kaapelitehdas.fi/tapahtumat/kolmas-soitto</link>
             <guid>https://www.kaapelitehdas.fi/tapahtumat/kolmas-soitto</guid>
-            <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
+            <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
+            <description><![CDATA[Tapahtuman ajankohta: 21.11.2023. Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Kuohuvat kymmenet – ravintolavalokuvia 1960- ja 1970-luvuilta]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/kuohuvat-kymmenet-ravintolavalokuvia-1960-ja-1970-luvuilta</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/kuohuvat-kymmenet-ravintolavalokuvia-1960-ja-1970-luvuilta</guid>
+            <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
+            <description><![CDATA[Tapahtuman ajankohta: 19.9.2025. Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Lea Kömi: Muistamisen tila – Nukkekoti]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/lea-komi-muistamisen-tila-nukkekoti</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/lea-komi-muistamisen-tila-nukkekoti</guid>
+            <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
+            <description><![CDATA[Tapahtuman ajankohta: 1.7.2026. Kaapelitehdas]]></description>
         </item>
         <item>
             <title><![CDATA[Makuasioita]]></title>
             <link>https://www.kaapelitehdas.fi/tapahtumat/makuasioita</link>
             <guid>https://www.kaapelitehdas.fi/tapahtumat/makuasioita</guid>
-            <pubDate>Fri, 08 Oct 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
+            <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
+            <description><![CDATA[Tapahtuman ajankohta: 8.10.2021. Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Photofuss: Kontakti]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/photoofuss-kontakti</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/photoofuss-kontakti</guid>
+            <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
+            <description><![CDATA[Tapahtuman ajankohta: 29.5.2026. Kaapelitehdas]]></description>
         </item>
     </channel>
 </rss>
