@@ -1,5 +1,4 @@
 name: Päivitä RSS-syötteet
-
 on:
   schedule:
     # Ajetaan 6 tunnin välein. Muokkaa tarpeen mukaan (cron on UTC-aikaa).
@@ -7,41 +6,33 @@ on:
   workflow_dispatch: {}
   push:
     branches: [main]
-
 permissions:
   contents: write
-
 concurrency:
   group: build-feeds
   cancel-in-progress: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Hae repo
         uses: actions/checkout@v4
-
       - name: Asenna Node
         uses: actions/setup-node@v4
         with:
           node-version: "22"
           cache: "npm"
-
       - name: Asenna riippuvuudet
         run: npm ci
-
       - name: Asenna Playwright + Chromium
         run: npx playwright install --with-deps chromium
-
       - name: Rakenna RSS-syötteet
         run: npm run build
-
       - name: Committaa muuttuneet syötteet
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/uutiset.xml docs/tapahtumat.xml
+          git add docs/uutiset.xml docs/tapahtumat.xml feed-state.json
           if git diff --cached --quiet; then
             echo "Ei muutoksia, ei committia."
           else
