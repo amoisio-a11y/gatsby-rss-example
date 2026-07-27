@@ -4,10 +4,17 @@
         <title>Kaapelitehdas – Tapahtumat</title>
         <link>https://www.kaapelitehdas.fi/tapahtumat</link>
         <description>Kaapelitehtaan tulevat tapahtumat (epävirallinen RSS-syöte)</description>
-        <lastBuildDate>Mon, 27 Jul 2026 15:11:47 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Jul 2026 19:53:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>kaapelitehdas-rss (GitHub Actions, epävirallinen)</generator>
         <language>fi</language>
+        <item>
+            <title><![CDATA[Viivan lumo]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/viivan-lumo</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/viivan-lumo</guid>
+            <pubDate>Mon, 27 Jul 2026 19:52:51 GMT</pubDate>
+            <description><![CDATA[Tapahtuman ajankohta: 27.7.2026. Kaapelitehdas]]></description>
+        </item>
         <item>
             <title><![CDATA[Makuasioita]]></title>
             <link>https://www.kaapelitehdas.fi/tapahtumat/makuasioita</link>
