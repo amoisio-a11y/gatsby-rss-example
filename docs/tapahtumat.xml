@@ -4,7 +4,7 @@
         <title>Kaapelitehdas – Tapahtumat</title>
         <link>https://www.kaapelitehdas.fi/tapahtumat</link>
         <description>Kaapelitehtaan tulevat tapahtumat (epävirallinen RSS-syöte)</description>
-        <lastBuildDate>Mon, 27 Jul 2026 10:08:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Jul 2026 15:11:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>kaapelitehdas-rss (GitHub Actions, epävirallinen)</generator>
         <language>fi</language>
