@@ -4,17 +4,10 @@
         <title>Kaapelitehdas – Tapahtumat</title>
         <link>https://www.kaapelitehdas.fi/tapahtumat</link>
         <description>Kaapelitehtaan tulevat tapahtumat (epävirallinen RSS-syöte)</description>
-        <lastBuildDate>Tue, 28 Jul 2026 19:51:54 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Jul 2026 03:36:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>kaapelitehdas-rss (GitHub Actions, epävirallinen)</generator>
         <language>fi</language>
-        <item>
-            <title><![CDATA[Viivan lumo]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/viivan-lumo</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/viivan-lumo</guid>
-            <pubDate>Tue, 28 Jul 2026 14:34:21 GMT</pubDate>
-            <description><![CDATA[Tapahtuman ajankohta: 27.7.2026. Kaapelitehdas]]></description>
-        </item>
         <item>
             <title><![CDATA[Marie-José Dings: Värien virrassa]]></title>
             <link>https://www.kaapelitehdas.fi/tapahtumat/mariejose-dings-varien-virrassa</link>
@@ -23,32 +16,18 @@
             <description><![CDATA[Tapahtuman ajankohta: 28.7.2026. Kaapelitehdas]]></description>
         </item>
         <item>
-            <title><![CDATA[Makuasioita]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/makuasioita</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/makuasioita</guid>
-            <pubDate>Tue, 28 Jul 2026 08:49:45 GMT</pubDate>
-            <description><![CDATA[Tapahtuman ajankohta: 8.10.2021. Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Photofuss: Kontakti]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/photoofuss-kontakti</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/photoofuss-kontakti</guid>
-            <pubDate>Tue, 28 Jul 2026 08:49:45 GMT</pubDate>
-            <description><![CDATA[Tapahtuman ajankohta: 29.5.2026. Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Spartak Khachanov: The Impersonal]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/spartak-khachanov-the-impersonal</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/spartak-khachanov-the-impersonal</guid>
-            <pubDate>Tue, 28 Jul 2026 08:49:45 GMT</pubDate>
-            <description><![CDATA[Tapahtuman ajankohta: 5.6.2026. Kaapelitehdas]]></description>
-        </item>
-        <item>
             <title><![CDATA[Kaapelitehtaan historiakäytävä]]></title>
             <link>https://www.kaapelitehdas.fi/tapahtumat/kaapelitehtaan-historiakaytava</link>
             <guid>https://www.kaapelitehdas.fi/tapahtumat/kaapelitehtaan-historiakaytava</guid>
             <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
             <description><![CDATA[Tapahtuman ajankohta: 25.11.2025. Kaapelitehdas]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Agni Kuokkanen: Through the Shadow]]></title>
+            <link>https://www.kaapelitehdas.fi/tapahtumat/agni-kuokkanen-through-the-shadow</link>
+            <guid>https://www.kaapelitehdas.fi/tapahtumat/agni-kuokkanen-through-the-shadow</guid>
+            <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
+            <description><![CDATA[Tapahtuman ajankohta: 17.7.2026. Kaapelitehdas]]></description>
         </item>
         <item>
             <title><![CDATA[Jörn Donner -galleria]]></title>
@@ -63,13 +42,6 @@
             <guid>https://www.kaapelitehdas.fi/tapahtumat/yksi-muotoiluinstituutin-valokuvaajien-ryhmanayttely</guid>
             <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
             <description><![CDATA[Tapahtuman ajankohta: 2.6.2026. Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Agni Kuokkanen: Through the Shadow]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/agni-kuokkanen-through-the-shadow</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/agni-kuokkanen-through-the-shadow</guid>
-            <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
-            <description><![CDATA[Tapahtuman ajankohta: 17.7.2026. Kaapelitehdas]]></description>
         </item>
         <item>
             <title><![CDATA[Film Still – Malla Hukkasen valokuvia elokuvista]]></title>
@@ -105,13 +77,6 @@
             <guid>https://www.kaapelitehdas.fi/tapahtumat/kuohuvat-kymmenet-ravintolavalokuvia-1960-ja-1970-luvuilta</guid>
             <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
             <description><![CDATA[Tapahtuman ajankohta: 19.9.2025. Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Lea Kömi: Muistamisen tila – Nukkekoti]]></title>
-            <link>https://www.kaapelitehdas.fi/tapahtumat/lea-komi-muistamisen-tila-nukkekoti</link>
-            <guid>https://www.kaapelitehdas.fi/tapahtumat/lea-komi-muistamisen-tila-nukkekoti</guid>
-            <pubDate>Sun, 26 Jul 2026 18:22:37 GMT</pubDate>
-            <description><![CDATA[Tapahtuman ajankohta: 1.7.2026. Kaapelitehdas]]></description>
         </item>
     </channel>
 </rss>
