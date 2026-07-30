@@ -17,22 +17,6 @@
 // vanhempielementin verran ylöspäin, kunnes löytää pp.kk.vvvv-muotoisen
 // merkkijonon. Jos päivämäärää ei löydy, käytetään ajon suoritushetkeä
 // varasuunnitelmana.
-//
-// PUBDATE JA TULEVAISUUDEN TAPAHTUMAT
-// ------------------------------------
-// "tapahtumat"-lähteen omat päivämäärät ovat usein TULEVAISUUDESSA.
-// Jos niitä käytettäisiin suoraan feedin pubDate-kenttänä, moni RSS-lukija
-// tulkitsee tulevan päivämäärän niin, että kohde näyttää "juuri nyt"
-// -tuoreelta aina siihen asti kunnes päivä koittaa — jolloin tulevat
-// tapahtumat floodaavat feedin kärjen pysyvästi.
-//
-// Siksi lähteille, joilla on useFirstSeenDate: true (tällä hetkellä vain
-// "tapahtumat"), pubDate ei ole tapahtuman oma kalenteripäivä vaan
-// ajanhetki, jolloin scraperi näki kyseisen URL:n ENSIMMÄISTÄ KERTAA.
-// Tämä tallennetaan feed-state.json-tiedostoon ja luetaan/päivitetään
-// joka ajolla. Tapahtuman todellinen päivämäärä näkyy silti kuvauksessa.
-// "uutiset"-lähde käyttää edelleen artikkelin omaa (jo mennyttä)
-// julkaisupäivää sellaisenaan, koska sille ei ole flood-ongelmaa.
 
 import { chromium } from "playwright";
 import * as cheerio from "cheerio";
@@ -41,7 +25,6 @@ import fs from "fs";
 import path from "path";
 
 const SITE = "https://www.kaapelitehdas.fi";
-const STATE_FILE = "feed-state.json";
 
 const SOURCES = [
   {
@@ -51,17 +34,14 @@ const SOURCES = [
     linkPattern: /\/artikkelit\/[^/]+\/?$/,
     title: "Kaapelitehdas – Uutiset",
     description: "Kaapelitehtaan uusimmat uutiset (epävirallinen RSS-syöte)",
-    useFirstSeenDate: false,
   },
-  {
-    key: "tapahtumat",
-    listUrl: `${SITE}/tapahtumat`,
-    // Yksittäiset tapahtumat elävät polussa /tapahtumat/<slug>/
-    linkPattern: /\/tapahtumat\/[^/]+\/?$/,
-    title: "Kaapelitehdas – Tapahtumat",
-    description: "Kaapelitehtaan tulevat tapahtumat (epävirallinen RSS-syöte)",
-    useFirstSeenDate: true,
-  },
+  // Huom: tapahtumat-lähde on poistettu käytöstä. Tapahtumasivulla on
+  // useita eri päivämääriä samassa kortissa (alkamis-, päättymis- ja
+  // lisäyspäivä), eikä niitä pystynyt luotettavasti erottamaan toisistaan
+  // pelkän DOM-tekstin perusteella — tulos näytti sekavalta ja
+  // epäjohdonmukaiselta. Jos tapahtumasyöte halutaan takaisin, se vaatii
+  // tarkemman DOM-rakenteen tunnistamisen (esim. erilliset elementit
+  // alkamis- ja päättymispäivälle), ei pelkkää tekstihakua.
 ];
 
 // Polkuja, jotka eivät ole yksittäisiä sisältösivuja vaikka osuvat pattern-
@@ -75,55 +55,6 @@ function parseFinnishDate(text) {
   const [, day, month, year] = m;
   const d = new Date(Number(year), Number(month) - 1, Number(day));
   return Number.isNaN(d.getTime()) ? null : d;
-}
-
-// --- State-tiedoston kasittely (ensi kertaa nahty -aikaleimat) ---
-
-function loadState(filePath) {
-  try {
-    const raw = fs.readFileSync(filePath, "utf-8");
-    return JSON.parse(raw);
-  } catch {
-    // Tiedostoa ei ole viela tai se on vioittunut -> aloitetaan tyhjasta.
-    return {};
-  }
-}
-
-function saveState(filePath, state) {
-  const sortedKeys = Object.keys(state).sort();
-  const sorted = {};
-  for (const key of sortedKeys) sorted[key] = state[key];
-  fs.writeFileSync(filePath, JSON.stringify(sorted, null, 2), "utf-8");
-}
-
-/**
- * Palauttaa uuden state-osion (vain source.key:n alla) VAIN nyt
- * loydetyista URL:eista - jo poistuneiden (menneiden) tapahtumien
- * merkinnat eivat siis kasva tiedostoa loputtomiin.
- *
- * items: [{ url, date, ... }]
- * existingSourceState: { [url]: isoString }
- * runTime: Date
- *
- * Palauttaa: { newSourceState, itemsWithPubDate }
- */
-function assignFirstSeenDates(items, existingSourceState, runTime) {
-  const newSourceState = {};
-  const itemsWithPubDate = items.map((item) => {
-    const existing = existingSourceState[item.url];
-    let firstSeen;
-    if (existing) {
-      const parsed = new Date(existing);
-      firstSeen = Number.isNaN(parsed.getTime()) ? runTime : parsed;
-    } else {
-      firstSeen = runTime;
-    }
-    newSourceState[item.url] = firstSeen.toISOString();
-    // originalDate sailytetaan kuvausta varten, pubDate-kenttana kaytetaan
-    // firstSeen-ajanhetkea.
-    return { ...item, originalDate: item.date, date: firstSeen };
-  });
-  return { newSourceState, itemsWithPubDate };
 }
 
 async function getRenderedLinks(page, url, pattern) {
@@ -221,21 +152,11 @@ function buildFeed(source, items) {
   });
 
   for (const item of items) {
-    // Jos taman lahteen kaytetaan first-seen-paivamaaraa, kirjoitetaan
-    // tapahtuman oma (todellinen) paivamaara kuvaukseen naa aikaisemmin.
-    let description = item.description;
-    if (source.useFirstSeenDate && item.originalDate) {
-      const dateStr = item.originalDate.toLocaleDateString("fi-FI");
-      description = description
-        ? `Tapahtuman ajankohta: ${dateStr}. ${description}`
-        : `Tapahtuman ajankohta: ${dateStr}.`;
-    }
-
     feed.addItem({
       title: item.title,
       id: item.url,
       link: item.url,
-      description,
+      description: item.description,
       date: item.date || new Date(),
       image: item.image || undefined,
     });
@@ -249,9 +170,6 @@ async function main() {
   const page = await browser.newPage();
   fs.mkdirSync("docs", { recursive: true });
 
-  const fullState = loadState(STATE_FILE);
-  const runTime = new Date();
-
   for (const source of SOURCES) {
     console.log(`\n== ${source.key} ==`);
     console.log(`Renderöidään: ${source.listUrl}`);
@@ -264,7 +182,7 @@ async function main() {
     }
     console.log(`  Löytyi ${links.length} kohdelinkkiä`);
 
-    let items = [];
+    const items = [];
     for (const { href, date } of links) {
       try {
         const detail = await fetchDetail(href, date);
@@ -277,21 +195,8 @@ async function main() {
       }
     }
 
-    if (source.useFirstSeenDate) {
-      const existingSourceState = fullState[source.key] || {};
-      const { newSourceState, itemsWithPubDate } = assignFirstSeenDates(
-        items,
-        existingSourceState,
-        runTime
-      );
-      fullState[source.key] = newSourceState;
-      items = itemsWithPubDate;
-
-      const newCount = items.filter((i) => !(i.url in existingSourceState)).length;
-      console.log(`  (${newCount} uutta tapahtumaa, loput sailyttavat aiemman aikaleimansa)`);
-    }
-
-    // Uusimmat ensin.
+    // Uusimmat ensin — sivustolla listat näyttävät olevan tässä
+    // järjestyksessä valmiiksi, mutta varmistetaan se myös feedissä.
     items.sort((a, b) => (b.date?.getTime() || 0) - (a.date?.getTime() || 0));
 
     if (items.length === 0) {
@@ -307,7 +212,6 @@ async function main() {
     console.log(`  Kirjoitettu: ${outPath}`);
   }
 
-  saveState(STATE_FILE, fullState);
   await browser.close();
 }
 
@@ -315,5 +219,3 @@ main().catch((err) => {
   console.error(err);
   process.exit(1);
 });
-
-export { assignFirstSeenDates, loadState, saveState, parseFinnishDate };
