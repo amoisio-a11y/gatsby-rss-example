@@ -4,10 +4,17 @@
         <title>Kaapelitehdas – Uutiset</title>
         <link>https://www.kaapelitehdas.fi/uutisia</link>
         <description>Kaapelitehtaan uusimmat uutiset (epävirallinen RSS-syöte)</description>
-        <lastBuildDate>Tue, 18 Aug 2026 07:02:14 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 13:07:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>kaapelitehdas-rss (GitHub Actions, epävirallinen)</generator>
         <language>fi</language>
+        <item>
+            <title><![CDATA[Kaapelitehtaalla seinät heräävät henkiin – Taiteiden yönä avautuu uusi graffitigalleria ja audiokierros pääsee yleisön testiin]]></title>
+            <link>https://www.kaapelitehdas.fi/artikkelit/kaapelitehtaalla-seinat-heraavat-henkiin-taiteiden-yona-avautuu-uusi-graffitigalleria-ja-audiokierros-paasee-yleison-testiin</link>
+            <guid>https://www.kaapelitehdas.fi/artikkelit/kaapelitehtaalla-seinat-heraavat-henkiin-taiteiden-yona-avautuu-uusi-graffitigalleria-ja-audiokierros-paasee-yleison-testiin</guid>
+            <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kaapelitehdas]]></description>
+        </item>
         <item>
             <title><![CDATA[Haemme kiinteistönhoitajaa]]></title>
             <link>https://www.kaapelitehdas.fi/artikkelit/haemme-kiinteistonhoitajaa2</link>
@@ -62,13 +69,6 @@
             <link>https://www.kaapelitehdas.fi/artikkelit/haemme-viestintaassistenttia2</link>
             <guid>https://www.kaapelitehdas.fi/artikkelit/haemme-viestintaassistenttia2</guid>
             <pubDate>Mon, 10 Mar 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kaapelitehdas]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Kaapelitehtaan Konttori on nyt Kaapelitehtaan Kahvibaari!]]></title>
-            <link>https://www.kaapelitehdas.fi/artikkelit/kaapelitehtaan-konttori-on-nyt-kaapelitehtaan-kahvibaari</link>
-            <guid>https://www.kaapelitehdas.fi/artikkelit/kaapelitehtaan-konttori-on-nyt-kaapelitehtaan-kahvibaari</guid>
-            <pubDate>Wed, 05 Mar 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Kaapelitehdas]]></description>
         </item>
     </channel>
